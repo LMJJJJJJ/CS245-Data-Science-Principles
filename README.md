@@ -52,10 +52,18 @@ All Experiments are conducted on a Linux Server with Four 4-core Intel(R) Xeon(R
 
 - Some of the results:
 
-  | Method | Note                                | K in KNN | Test Acc. |
-  | ------ | ----------------------------------- | -------- | --------- |
-  | LSML   | num. of samples $50|\mathcal{Y}|^2$ | 7        | 0.8951    |
-  | NCA    | (None)                              | 7        | 0.9092    |
-  | LFDA   | reduce to 64 dim                    | 7        | 0.9212    |
+  | Method | Note                  | K in KNN | Test Acc. |
+  | ------ | --------------------- | -------- | --------- |
+  | LSML   | num. of samples 50Y^2 | 7        | 0.8951    |
+  | NCA    | (None)                | 7        | 0.9092    |
+  | LFDA   | reduce to 64 dim      | 7        | 0.9212    |
 
-  
+
+## Project 3 Feature Encoding
+
+*TBD*
+
+## Project 4 Domain Adaptation
+
+*TBD*
+
