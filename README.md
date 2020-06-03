@@ -37,7 +37,7 @@ All Experiments are conducted on a Linux Server with Four 4-core Intel(R) Xeon(R
 
 ### Project 1 Dimensionality Reduction (Feature Learning Part)
 
-- Dataset: deep learning features of the AwA2 dataset [Download](http://cvml.ist.ac.at/AwA2/AwA2-features.zip)
+- Dataset: deep learning features of the AwA2 dataset (301 MB) [Download](http://cvml.ist.ac.at/AwA2/AwA2-features.zip)
 
   - Note: These are features extracted using an ILSVRC-pretrained ResNet101
 
@@ -64,7 +64,7 @@ All Experiments are conducted on a Linux Server with Four 4-core Intel(R) Xeon(R
 
 ### Project 2 KNN with Different Distance Metrics (LSML, NCA, LFDA)
 
-- Dataset: deep learning features of the AwA2 dataset [Download](http://cvml.ist.ac.at/AwA2/AwA2-features.zip)
+- Dataset: deep learning features of the AwA2 dataset (301 MB) [Download](http://cvml.ist.ac.at/AwA2/AwA2-features.zip)
 
   - Note: These are features extracted using an ILSVRC-pretrained ResNet101
 
@@ -81,7 +81,35 @@ All Experiments are conducted on a Linux Server with Four 4-core Intel(R) Xeon(R
 
 ### Project 3 Feature Encoding
 
-*TBD*
+- Dataset: AwA2 dataset JPEG images (13 GB) [Download](https://cvml.ist.ac.at/AwA2/AwA2-data.zip)
+
+- For classification, 60% data are used for training, and the rest 40% are used for testing.
+
+- Some of the results by SIFT (test accuracy)
+
+  | N_cluster | N_kp | Note                   | BoW   | VLAD  | Fisher |
+  | --------- | ---- | ---------------------- | ----- | ----- | ------ |
+  | 128       | 10   | VLAD Fisher PCA to 128 | 0.124 | 0.129 | 0.125  |
+  | 128       | 100  | VLAD Fisher PCA to 128 | 0.208 | 0.257 | 0.219  |
+  | 256       | 100  | VLAD Fisher PCA to 256 | 0.217 | 0.259 | 0.227  |
+  | 512       | 100  | VLAD Fisher PCA to 512 | 0.223 | 0.242 | 0.235  |
+  | 128       | 500  | VLAD Fisher PCA to 128 | 0.277 | 0.351 | 0.282  |
+  | 256       | 500  | VLAD Fisher PCA to 256 | 0.288 | 0.353 | 0.298  |
+  | 512       | 500  | VLAD Fisher PCA to 512 | 0.301 | 0.343 | 0.304  |
+
+- Some of the results by Selective Search then CNN (test accuracy)
+
+  | N_cluster | Pretrained CNN | Method   | Note                   | BoW   | VLAD  | Fisher |
+  | --------- | -------------- | -------- | ---------------------- | ----- | ----- | ------ |
+  | 128       | AwA2           | original | VLAD Fisher PCA to 128 | 0.695 | 0.687 | 0.089  |
+  | 128       | AwA2           | topleft  | VLAD Fisher PCA to 128 | 0.699 | 0.685 | 0.122  |
+  | 128       | AwA2           | resize   | VLAD Fisher PCA to 128 | 0.143 | 0.160 | 0.128  |
+  | 128       | ImageNet       | original | VLAD Fisher PCA to 128 | 0.803 | 0.829 | 0.651  |
+  | 128       | ImageNet       | topleft  | VLAD Fisher PCA to 128 | 0.822 | 0.833 | 0.329  |
+  | 128       | ImageNet       | resize   | VLAD Fisher PCA to 128 | 0.173 | 0.242 | 0.153  |
+
+  
+
 
 ### Project 4 Domain Adaptation
 
