@@ -15,7 +15,27 @@ All Experiments are conducted on a Linux Server with Four 4-core Intel(R) Xeon(R
 - [metric-learn](http://contrib.scikit-learn.org/metric-learn/) : for project 2
 - opencv: for project 3
 
-## Project 1 Dimensionality Reduction (Feature Learning Part)
+## How to Run these Code
+
+### Project 1
+
+*TBD*
+
+### Project 2
+
+*TBD*
+
+### Project 3
+
+*TBD*
+
+### Project 4
+
+*TBD*
+
+## Some of the Experimental Results
+
+### Project 1 Dimensionality Reduction (Feature Learning Part)
 
 - Dataset: deep learning features of the AwA2 dataset [Download](http://cvml.ist.ac.at/AwA2/AwA2-features.zip)
 
@@ -42,7 +62,7 @@ All Experiments are conducted on a Linux Server with Four 4-core Intel(R) Xeon(R
   | MDS              | 16   | rbf        | 0.753      | 0.734     |
 
 
-## Project 2 KNN with Different Distance Metrics (LSML, NCA, LFDA)
+### Project 2 KNN with Different Distance Metrics (LSML, NCA, LFDA)
 
 - Dataset: deep learning features of the AwA2 dataset [Download](http://cvml.ist.ac.at/AwA2/AwA2-features.zip)
 
@@ -59,11 +79,11 @@ All Experiments are conducted on a Linux Server with Four 4-core Intel(R) Xeon(R
   | LFDA   | reduce to 64 dim      | 7        | 0.9212    |
 
 
-## Project 3 Feature Encoding
+### Project 3 Feature Encoding
 
 *TBD*
 
-## Project 4 Domain Adaptation
+### Project 4 Domain Adaptation
 
 *TBD*
 
