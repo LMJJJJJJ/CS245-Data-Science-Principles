@@ -15,24 +15,6 @@ All Experiments are conducted on a Linux Server with Four 4-core Intel(R) Xeon(R
 - [metric-learn](http://contrib.scikit-learn.org/metric-learn/) : for project 2
 - opencv: for project 3
 
-## How to Run these Code
-
-### Project 1
-
-*TBD*
-
-### Project 2
-
-*TBD*
-
-### Project 3
-
-*TBD*
-
-### Project 4
-
-*TBD*
-
 ## Some of the Experimental Results
 
 ### Project 1 Dimensionality Reduction (Feature Learning Part)
