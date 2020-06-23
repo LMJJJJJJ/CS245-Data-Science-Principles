@@ -18,10 +18,13 @@ def load_split(args):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser("Test")
-    parser.add_argument('--data-root', default='./data/Product_RealWorld')
+    # ./data/BDA_primal_32_1.0_0.5_1.0_10_BDA_0/Art_RealWorld
+    # ./data/CORAL/Clipart_RealWorld
+    parser.add_argument('--data-root', default='./data/BDA_primal_1024_1.0_0.5_1.0_10_BDA_0/Product_RealWorld')
     parser.add_argument('--svm-c', type=float, default=1.0)
     parser.add_argument('--kernel', type=str, default="rbf")
     args = parser.parse_args()
+    print(args)
 
     X_train, X_test, y_train, y_test = load_split(args)
     print(X_train.shape)
