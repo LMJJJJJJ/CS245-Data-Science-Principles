@@ -17,7 +17,7 @@ All Experiments are conducted on a Linux Server with Four 4-core Intel(R) Xeon(R
 
 ## Some of the Experimental Results
 
-### Project 1 Dimensionality Reduction (Feature Learning Part)
+### Project 1 Dimensionality Reduction (Feature Learning Part) ([our report](http://bcmi.sjtu.edu.cn/home/niuli/teaching/2020_1_2.pdf))
 
 - Dataset: deep learning features of the AwA2 dataset (301 MB) [Download](http://cvml.ist.ac.at/AwA2/AwA2-features.zip)
 
@@ -44,7 +44,7 @@ All Experiments are conducted on a Linux Server with Four 4-core Intel(R) Xeon(R
   | MDS              | 16   | rbf        | 0.753      | 0.734     |
 
 
-### Project 2 KNN with Different Distance Metrics (LSML, NCA, LFDA)
+### Project 2 KNN with Different Distance Metrics (LSML, NCA, LFDA) ([our report](http://bcmi.sjtu.edu.cn/home/niuli/teaching/2020_2_2.pdf))
 
 - Dataset: deep learning features of the AwA2 dataset (301 MB) [Download](http://cvml.ist.ac.at/AwA2/AwA2-features.zip)
 
